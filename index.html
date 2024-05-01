@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account System</title>
+    <link rel="stylesheet" href="222style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Hidden Arcade Account System</h1>
+        <h2> Welcome to the Hidden Arcade Account System,</h2>
+        <h2>Sign In To Interact With Other Accounts</h2>
+        <div id="registration-form">
+            <input type="text" id="reg-username" placeholder="Username">
+            <input type="password" id="reg-password" placeholder="Password">
+            <button onclick="register()">Register</button>
+        </div>
+        <div id="signin-form">
+            <input type="text" id="sign-username" placeholder="Username">
+            <input type="password" id="sign-password" placeholder="Password">
+            <button onclick="signIn()">Sign In</button>
+        </div>
+        <div id="account-list">
+            <h2>Accounts</h2>
+            <ul id="accounts"></ul>
+        </div>
+        <div id="message-form">
+        </div>
+        <div id="current-user-details"></div>
+    </div>
+
+
+    <script src="222script.js"></script>
+</body>
+</html>
