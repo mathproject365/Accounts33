@@ -10,6 +10,9 @@ window.onload = function() {
     }
 };
 
+// Display accounts list immediately when the page loads
+displayAccounts();
+
 function saveAccounts() {
     localStorage.setItem('accounts', JSON.stringify(accounts));
 }
@@ -139,6 +142,3 @@ function displaySentMessages() {
         sentMessagesList.appendChild(listItem);
     });
 }
-
-// Initial display of accounts
-displayAccounts();
